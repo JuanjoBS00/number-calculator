@@ -8,7 +8,7 @@ Esta calculadora, a la cual se le ha dotado de estilos gracias al uso del lengua
 Por otra parte, la calculadora puede realizar un total de 9 operaciones, las cuales vienen dados por los siguentes botones que funcionan de la siguiente manera:
 
 - Botón "+": Calcula la suma de los números indicados en los dos primeros cuadros de texto.
-- Botón "-": Calculaa la resta de los números indicados en los dos primeros cuadros de texto.
+- Botón "-": Calcula la resta de los números indicados en los dos primeros cuadros de texto.
 - Botón "*": Calcula la multiplicación de los números indicados en los dos primeros cuadros de texto.
 - Botón "/": Calcula la división del primer número entre el segundo introducido.
 - Botón "A^2": Calcula la potencia al cuadrado del número indicado en el primer cuadro de texto.
