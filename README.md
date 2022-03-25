@@ -15,6 +15,6 @@ Por otra parte, la calculadora puede realizar un total de 9 operaciones, las cua
 - Botón "A^B": Calcula la potencia de los números indicados en los dos primeros cuadros de texto, actuando el primero como base y el segundo como exponente.
 - Botón "√": Calcula la raíz cuadrada del número indicado en el primer cuadro de texto existente.
 - Botón "mod": Calcula el módulo del primer número introducido entre el segundo, con otras palabras, muestra el resto existente entre la división del primer número y el segundo.
-- Botón "AC": Resetea a 0 los valores existentes en los tres cuadros de textos de la calculadora
+- Botón "AC": Resetea a 0 los valores existentes en los tres cuadros de textos de la calculadora.
 
 Este se trata del funcionamiento proporcionado por la calculadora. ¡Espero que te guste!
