@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html{
+  background-color: lightslategrey;
+}
+
+.blue-bg{
+  position: fixed;
+  background: url(https://live.staticflickr.com/1656/26031883676_182191d803_b.jpg);
+  background-size: cover;
+  background-color: #58aff6;
+  top: 0;
+  height: 400px;
+  width: 100vw;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+.white-bg{
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  min-height: 500px;
+  margin: 210px 0px;
+  width: 100vw;
+  height: 100vh;
+  transform: skewY(5deg);
+  z-index: -1;
+}
+
+.content{
+  position: absolute;
+  top: 0;
+  margin: 250px 10vw;
+  max-width: 60vw;
+  background-color: transparent;
+}
+
+.shadow{
+  box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3);
+} 
+
+h1,h2,h3,form{
+    text-align: center;
+}
+
+table {
+  margin: auto;
+  background-color: rgb(61, 61, 61);
+  width: 238px;
+  max-width: 238px;
+  height: 325px;
+  text-align: center;
+  border-radius: 4px;
+  padding-right: 10px;
+}
+
+input {
+  outline: 0;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border: 0;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+
+input:active {
+  top: 4px;
+  border: 0 solid #000;
+  color: #000;
+  background-color: #b1c0f7;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: none;
+}
+
+.calc-screen {
+  width: 195px;
+  max-width: 200px;
+  font-size: 26px;
+  text-align: left;
+  background-color: #ececb8;
+  float: left;
+}
+
+
+.calc-screen:active {
+  top: 5px;
+  width: 200px;
+  font-size: 26px;
+  text-align: left;
+  background-color: #ececb8;
+}
+
+.opt-button {
+  background-color: #fff;
+  position: relative;
+}
+
+.opt-button:active {
+  top: 4px;
+  box-shadow: none;
+}
+
+#reset-button {
+  float: left;
+  position: relative;
+  display: block;
+  background-color: #0453c2;
+  color: #fff;
+}
+
+
+#reset-button:active {
+  float: left;
+  top: 4px;
+  display: block;
+  background-color: #b1c0f7;
+  margin-bottom: 15px;
+  box-shadow: none;
+  color: #fff;
+}
